@@ -32,8 +32,3 @@ class Song:
         song = Song(name, album)
         song.save()
         return song
-
-blinding_lights = Song("Blinding Lights", "After Hours")
-print(blinding_lights.name)
-print(blinding_lights.album)
-print(blinding_lights.id)
